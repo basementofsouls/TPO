@@ -1,0 +1,85 @@
+мар. 11, 2024 9:51:47 PM hudson.remoting.jnlp.Main createEngine
+INFO: Setting up agent: DOLLOF-CTHULHU
+мар. 11, 2024 9:51:47 PM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3148.v532a_7e715ee3
+мар. 11, 2024 9:51:47 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using C:\ProgramData\Jenkins\slave\remoting as a remoting work directory
+мар. 11, 2024 9:51:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://localhost:8081/]
+мар. 11, 2024 9:51:48 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+мар. 11, 2024 9:51:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: localhost
+  Agent port:    60535
+  Identity:      2e:b4:5a:f5:c4:7c:9c:c2:94:9a:81:33:f2:5c:22:e1
+мар. 11, 2024 9:51:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+мар. 11, 2024 9:51:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to localhost:60535
+мар. 11, 2024 9:51:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+мар. 11, 2024 9:51:48 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+мар. 11, 2024 9:51:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Remote identity confirmed: 2e:b4:5a:f5:c4:7c:9c:c2:94:9a:81:33:f2:5c:22:e1
+мар. 11, 2024 9:51:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+мар. 11, 2024 9:58:45 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+мар. 11, 2024 9:59:00 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the controller. Will try again: java.net.SocketTimeoutException Read timed out
+мар. 11, 2024 9:59:15 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the controller. Will try again: java.net.SocketTimeoutException Read timed out
+мар. 11, 2024 9:59:25 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+мар. 11, 2024 9:59:25 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+мар. 11, 2024 9:59:25 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://localhost:8081/]
+мар. 11, 2024 9:59:25 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+мар. 11, 2024 9:59:25 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: localhost
+  Agent port:    55190
+  Identity:      2e:b4:5a:f5:c4:7c:9c:c2:94:9a:81:33:f2:5c:22:e1
+мар. 11, 2024 9:59:25 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+мар. 11, 2024 9:59:25 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to localhost:55190
+мар. 11, 2024 9:59:25 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+мар. 11, 2024 9:59:25 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+мар. 11, 2024 9:59:26 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Remote identity confirmed: 2e:b4:5a:f5:c4:7c:9c:c2:94:9a:81:33:f2:5c:22:e1
+мар. 11, 2024 9:59:26 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+мар. 11, 2024 10:00:43 PM org.jvnet.winp.Native loadByUrl
+WARNING: Failed to load DLL from static location
+java.lang.UnsatisfiedLinkError: Native Library C:\ProgramData\Jenkins\slave\remoting\jarCache\ED\winp.x64.BFFE30B3B50581290B1866EF8D48C609.dll already loaded in another classloader
+	at java.base/java.lang.ClassLoader$NativeLibrary.loadLibrary(ClassLoader.java:2458)
+	at java.base/java.lang.ClassLoader.loadLibrary0(ClassLoader.java:2689)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2619)
+	at java.base/java.lang.Runtime.load0(Runtime.java:765)
+	at java.base/java.lang.System.load(System.java:1848)
+	at org.jvnet.winp.Native.loadDll(Native.java:253)
+	at org.jvnet.winp.Native.loadByUrl(Native.java:173)
+	at org.jvnet.winp.Native.load(Native.java:135)
+	at org.jvnet.winp.Native.<clinit>(Native.java:102)
+	at org.jvnet.winp.WinProcess.enableDebugPrivilege(WinProcess.java:230)
+	at hudson.util.ProcessTree$Windows.<clinit>(ProcessTree.java:725)
+	at hudson.util.ProcessTree.get(ProcessTree.java:462)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1165)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1155)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:377)
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:125)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+

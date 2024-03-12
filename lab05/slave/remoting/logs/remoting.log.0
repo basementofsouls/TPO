@@ -1,0 +1,27 @@
+мар. 12, 2024 10:00:20 AM hudson.remoting.jnlp.Main createEngine
+INFO: Setting up agent: DOLLOF-CTHULHU
+мар. 12, 2024 10:00:20 AM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3148.v532a_7e715ee3
+мар. 12, 2024 10:00:20 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using C:\ProgramData\Jenkins\slave\remoting as a remoting work directory
+мар. 12, 2024 10:00:21 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://localhost:8081/]
+мар. 12, 2024 10:00:21 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+мар. 12, 2024 10:00:21 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: localhost
+  Agent port:    55901
+  Identity:      2e:b4:5a:f5:c4:7c:9c:c2:94:9a:81:33:f2:5c:22:e1
+мар. 12, 2024 10:00:21 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+мар. 12, 2024 10:00:21 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to localhost:55901
+мар. 12, 2024 10:00:21 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+мар. 12, 2024 10:00:21 AM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+мар. 12, 2024 10:00:22 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Remote identity confirmed: 2e:b4:5a:f5:c4:7c:9c:c2:94:9a:81:33:f2:5c:22:e1
+мар. 12, 2024 10:00:22 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
