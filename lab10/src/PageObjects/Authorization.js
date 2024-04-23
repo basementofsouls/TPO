@@ -45,14 +45,14 @@ class Authorization extends BasePage{
             return false;
         }
     }
-    async closeBrowser(){
-        try{
-            await this.closeBrowser();
-            return true;
-        }
-        catch(Ex){
-            return false;
-        }
-    }
+    // async closeBrowser(){
+    //     try{
+    //         await this.closeBrowser();
+    //         return true;
+    //     }
+    //     catch(Ex){
+    //         return false;
+    //     }
+    // }
 }
 module.exports = new Authorization();
