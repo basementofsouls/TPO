@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-
+const data = require('./pass.json')
 const {Builder, By, Key, until} = require('selenium-webdriver');
 
 async function EmailAdressTest(){
@@ -17,11 +17,11 @@ async function EmailAdressTest(){
         By.className('auth-btn'))
         .click();
 
-    await driver.findElement(By.name('PHONE')).sendKeys('445711282');
+    await driver.findElement(By.name('PHONE')).sendKeys(data.phone);
         
     try{
         let elem = await driver.findElement(By.name('PASSWORD'));
-        await elem.sendKeys('q1w2e3r4', Key.RETURN);
+        await elem.sendKeys(data.pass, Key.RETURN);
 
         if(elem){
             TestResult = true;
